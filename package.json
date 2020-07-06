@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "prebuild": "rimraf dist",
+    "prebuild": "rimraf dist && node prebuild.js",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "nest start",
@@ -30,6 +30,7 @@
     "@nestjs/websockets": "^7.3.1",
     "lodash": "^4.17.15",
     "reflect-metadata": "^0.1.13",
+    "replace-in-file": "^6.1.0",
     "rimraf": "^3.0.2",
     "rxjs": "^6.5.4"
   },
