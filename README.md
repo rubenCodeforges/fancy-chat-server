@@ -15,20 +15,6 @@ The app is available in 2 version
 1. local - you run the app locally with `npm run start:local`
 2. standalone - simple open the app from your browser [url](https://fancy-chat.herokuapp.com/) (might take a couple of seconds to spool up).
 
-## Embedding
-It is also possible to embed the app in any website.
-Just use following code snippets
-
-Library: 
-```html
-
-```
-Now you can simply paste the widget where you want on your website:
-
-```html
-
-```
-
 ## Source Code
 The client is a Angular 10 app , you can find the source code [here](https://github.com/rubenCodeforges/fancy-chat-client)
 
