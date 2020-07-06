@@ -1,8 +1,13 @@
 import { Module } from '@nestjs/common';
 import {ChatModule} from "./@codeforges/chat/ChatModule";
+import {ServeStaticModule} from "@nestjs/serve-static";
+import { join } from 'path';
 
 const modules = [
-    ChatModule
+    ChatModule,
+    ServeStaticModule.forRoot({
+        rootPath: join(__dirname, '..', 'client'),
+    }),
 ];
 
 @Module({
