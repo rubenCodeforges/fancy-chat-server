@@ -7,7 +7,7 @@ const options = {
     files: 'client/main.*',
 
     from: 'host:process.env.HOST',
-    to: 'host:' + process.env.HOST,
+    to: `host: "${process.env.HOST}"`,
 };
 
 try {
