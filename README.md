@@ -12,7 +12,7 @@ $ npm install
 
 The app is available in 2 version
 
-1. local - you run the app locally with `npm run start:local`
+1. local - you run the app locally with `npm start`
 2. standalone - simple open the app from your browser [url](https://fancy-chat.herokuapp.com/) (might take a couple of seconds to spool up).
 
 ## Source Code
